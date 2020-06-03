@@ -44,7 +44,7 @@
 				<div class="container">
 					<div class="box">
 						<!--<h2w>Multiview Relationships in 3D Data<br/></h2w><h3w>In Conjunction with ICCV 2017<br/></h3w>-->
-                        <h2w>In Conjunction with CVPR 2020<br/></h2w>
+                        <h2w>Tutorial on Synchronization and Cycle Consistency in Computer Vision<br/></h2w><h2w>In Conjunction with CVPR 2020<br/></h2w>
 						<span class="typed"></span>
 					</div>
 				</div>
@@ -106,7 +106,11 @@
 					</div>
 					<div class="col-sm-12 col-md-6">
 						<!--<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>-->
-						<p>This site is currently under construction.</p>
+						<p>Many of the computer vision problems involve processing multiple entities be it objects, shapes, views or scenes. In such cases, \textit{graphs} a.k.a. \textit{networks}, are the key data structures for storing and organizing information. Yet, relationships between individual entities that had to be encoded in the edges often remain pairwise, or rather \textit{local}. One of the most well accepted methods of seeking a global agreement is enforcing \textit{cycle-consistency}, where the local errors are distributed over the entire graph such that the composition of maps/transforms along the cycles is close to the identity map. This art of consistently recovering absolute quantities from a collection of ratios is known as \textit{synchronization}. From training generative adverserial networks to geometric structure from motion algorithms, from temporal video understanding to image-to-image translation, this capability of imposing consistency benefits a wide variety of vision tasks.
+
+In this tutorial, we first introduce the fundamentals of cycle-consistency and review the broad range of studies that make use of it. Next, we cover different techniques for solving multiview synchronization problems in computer vision, or in other words for achieving cycle consistency. Several techniques including graph theory, combinatorial optimization, Riemannian geometry, spectral decomposition, (non-)convex optimization, and MAP inference will be addressed. We also touch upon recent techniques that jointly optimize \textbf{neural networks across multiple domains}. Besides optimization techniques, we will also discuss the \textbf{uncertainty} \& \textbf{ambiguities} inherent either in the data or in the model and show how the existing tools can be augmented to yield this valuable piece of information. We will finally showcase the applications of synchronizing linear/non-linear maps in multi-view based geometry reconstruction (RGB images or RGBD images), joint analysis of image collections, 3D reconstruction and understanding across multiple domains, as summarized in Fig.~\ref{fig:teaser}. 
+
+Tools and methods presented in this tutorial are beneficial to a large audience as the synchronization is a common technique across several sub-fields of computer vision. Primarily, the target audience involve academicians, graduate students, industrial researchers and other practitioners who are interested in the state-of-the-art techniques for multi-view structure-from-motion, 3D geometry reconstruction, unsupervised map/object discovery, joint learning of neural networks and end-to-end multiview processing. The tutorial is self-contained.</p>
 					</div>
 					<div class="col-xs-6 col-md-2">
 						<div class="number wow bounceIn" data-wow-duration="0.8s" data-wow-delay="0.5s">

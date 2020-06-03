@@ -2,7 +2,7 @@
     "use strict";
 
     var venueAddress = "The Washington State Convention Center - Seattle, WA", // Venue Address
-        eventInfo = ["Seattle, WA", "Sat, Jun 13, 2020 – Fri, Jun 19, 2020"]; // Event Info
+        eventInfo = ["Virtual Conference", "Sun, Jun 14, 2020"]; // Event Info
 
     var fn = {
 
